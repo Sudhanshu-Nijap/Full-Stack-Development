@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;                /* Use flexbox for centering */
+    justify-content: center;       /*horzontal center*/
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 30vh;
+    width:25vw;
+    margin: 5.5vh;
+    border: 2px solid red;
+    box-sizing: border-box;
+    box-shadow: 5px 15px 5px 5px #8888 ;
+}

@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    border: 2px solid red;
+    /* display: inline; */
+    /* display: inline-block; */
+    /* display: inline-flex; */
+    display: grid;
+    justify-content: center;
+    width: 20vw;
+    margin: 20px;
+    padding: 20px;
+    /* visibility: hidden; */ 
+}

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+
+
+h1{
+    font-style: italic;
+    font-family: "DynaPuff", system-ui;
+    font-size: medium;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.contain p{
+    width: 20vw;
+    /* text-overflow: ellipsis ; */
+    text-overflow: clip ;
+    /* overflow: hidden; */
+    text-decoration:line-through;
+    word-spacing: 2px;
+    /* text-align:center; */
+    text-align: justify;
+    border-style: dashed;
+    padding: 20px;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
