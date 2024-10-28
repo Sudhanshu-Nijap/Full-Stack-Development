@@ -1,0 +1,19 @@
+body{
+    background-color: red;
+}
+
+@media only screen and (max-width: 1000px) {
+body{
+    background-color: yellow;
+}
+}
+.boxes{
+    display: flex;
+}
+.box{
+    width: 344px;
+    height: 344px;
+    background-color: pink;
+    padding: 3px;
+    margin: 3px;
+}

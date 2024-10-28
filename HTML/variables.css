@@ -1,0 +1,25 @@
+:root{
+    --color: blue;
+    --semicolor:rgb(90, 90, 128);
+    --p: 50px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: var(--color);
+}
+
+.nav ul li{
+    list-style: none;
+    padding: var(--p);
+}
+
+ul{
+    display: flex;
+}
+
+.container{
+    background-color: var(--semicolor);
+}
