@@ -9,7 +9,7 @@
 .items{
     border: 2px solid red;
     height: 55px;
-    /* width: 55px; */
+    width: 55px;
 }
 
 .item1{
