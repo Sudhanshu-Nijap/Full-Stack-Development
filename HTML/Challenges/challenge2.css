@@ -1,0 +1,41 @@
+:root{
+    --nav_color: red;
+    --text_color: blue;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-bar{
+    background-color: var(--nav_color);
+    height:10vh;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    z-index: 1;
+    top:0;
+    left:0;
+    box-shadow: 0 4px 10px  rgba(97, 25, 25, 0.1);
+
+}
+.nav-bar h2{
+    padding: 20px;
+    color: var(--text_color);
+}
+.nav-bar .nav-option ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-bar .nav-option ul li{
+    list-style: none;
+    padding: 0 20px;
+}
+.nav-bar .nav-option ul li a{
+    text-decoration: none;
+    color: var(--text_color);
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

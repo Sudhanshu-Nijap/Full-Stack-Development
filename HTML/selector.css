@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* .box:nth-child(even){
+    background-color: aqua;
+} */
+
+.box:nth-last-child(2){         /* means 2nd last */
+    background-color: red;
+}
+[data-color="primary"]{
+    color: green;
+}
+
+.boxes::before{
+    content: "lets goooo";
+}
+
+.boxes::after{
+    content: "chaall bhaiii";
+}
+.box::first-letter{
+    color: peru;
+}
+.box::selection{
+    color: aqua;
+    background-color: black;
+}
+
+input::placeholder{
+    color: rgb(85, 67, 102);
+    font-weight: 500;
+    background-color: chartreuse;
+}

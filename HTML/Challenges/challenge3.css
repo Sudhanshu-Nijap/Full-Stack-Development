@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.home{
+    
+    background-color: rgb(0, 119, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 0 20px;
+}
+.home h2{
+    padding: 20px;
+    color: white;
+}
+.home .nav-options ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.home .nav-options ul li a{
+    padding: 0 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.hero{
+    height: 70vh;
+    width: 100%;
+    background-color: rgb(0, 238, 255);
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero .rec1{
+    height: 50vh;
+    width: 40vw;
+    background-color: red;
+    margin: 30px auto;
+}
+
+.hero .rec2{
+    height: 50vh;
+    width: 40vw;
+    background-color: red;
+    margin: 30px auto;
+}
+
+.aboutpg{
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(0, 255, 64);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.aboutpg .rect{
+    height:35vh;
+    width: 70vw;
+    background-color: rgb(189, 43, 226);
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aboutpg img{
+    top: 430px;
+    position: fixed;
+    right: 30px;
+    width: 80px;
+}
+p{
+    padding: 30px;
+}
+.footerpg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    width: 100%;
+    background-color: lightcoral;
+}
