@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    font-size: 14px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #9b9b9b;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 3.8;
+}
+
+h2{
+    color: darkorange;
+}
+.col{
+    padding: 20px 40px;
+}
+
+.footer{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 50px;
+    color: #fff;
+    background-color: #25242a;
+    justify-content: space-between;
+}
+
+.footer ul{
+    list-style: none;
+    padding: 20px 0;
+}
+
+.footer ul li{
+    line-height: 2;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer .col4 .form-search{
+    padding: 20px 0;
+}
+
+.social-media a{
+    background: darkorange;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+
+.social-media a i{
+    color: #e7f2f4;
+    padding: 10px 12px;
+    font-size: 20px;
+}
+
+.search-box input{
+    height: 36px;
+}
+.btn{
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    background-color: darkorange;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.footer-bottom{
+    margin: auto;
+    text-align: center;
+    color: #999;
+    padding-top: 30px;
+}
+
+.footer-bottom p{
+    padding-top: 20px ;
+}
