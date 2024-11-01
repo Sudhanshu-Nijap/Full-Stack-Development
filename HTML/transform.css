@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+    border: 2px solid black;
+}
+.box{
+    height: 50px;
+    width: 50px;
+    background: lightblue;
+    border: 2px solid black;
+    /* Transform-> Rotate */
+    /* transform: rotate(40deg); */
+    /* transform: rotateX(50deg); */
+    /* transform: rotateY(50deg); */
+    /* transform: rotateZ(50deg); */
+
+    /* Transform-> Scale */
+    /* transform: scale(2); */
+
+    /* Transform-> Translate */
+    /* transform: translateX(10px); */
+    /* transform: translateY(10px); */
+
+    transform: translateX(20px) skewX(20deg) rotateX(40deg) scale(2);
+}
+
+ 
