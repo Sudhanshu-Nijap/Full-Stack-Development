@@ -1,0 +1,7 @@
+img{
+    /* filter: blur(10px); */
+    filter: contrast(8px);
+    filter: brightness(10px);
+    filter: grayscale(10px);
+
+}
