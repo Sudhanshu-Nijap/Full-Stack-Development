@@ -1,0 +1,7 @@
+.contain{
+    display:flex;
+    height: 50vh;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+}
