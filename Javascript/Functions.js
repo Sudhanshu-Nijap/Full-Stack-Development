@@ -28,7 +28,8 @@ let obj = {
     name:"Sudhu",
     age:18,
     address:"Mahim",
-    show: ()=>{
+    show:  
+    ()=>{
         console.log(`The name is ${this.name}`);
     }
 }

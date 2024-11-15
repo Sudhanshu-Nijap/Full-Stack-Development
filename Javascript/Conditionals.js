@@ -28,7 +28,7 @@ console.log(z);
 // == (value compared only)
 let a = "3";
 let b= 3;
-console.log(a===b);
+console.log(a==b);
 
 // === (value as well as type compared)
 let c = 3;
