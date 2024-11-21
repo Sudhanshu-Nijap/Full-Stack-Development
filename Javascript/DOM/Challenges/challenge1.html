@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 35px;
+            width:35px;
+            border: 2px solid black;
+            margin: 10px;
+            padding: 10px;
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="box1" class="box">1</div>
+        <div id="box2" class="box">2</div>
+        <div id="box3" class="box">3</div>
+        <div id="box4" class="box">4</div>
+        <div id="box5" class="box">5</div>
+    </div>
+</body>
+<script>
+    // document.getElementById("box1").style.backgroundColor = "red";
+    let a = document.querySelector(".container").children;
+    console.log(a);
+    function randomcolor(){
+        let val1 = Math.ceil(0+Math.random()*255);
+        let val2 = Math.ceil(0+Math.random()*255);
+        let val3 = Math.ceil(0+Math.random()*255);
+        return `rgb(${val1},${val2},${val3})`;
+    }
+    // let a = document.getElementsByClassName("box")
+    // Array.from(a).forEach(e=>{
+    //     console.log(e);
+    // })
+    Array.from(a).forEach(e=>{
+        e.style.backgroundColor = randomcolor()
+    })
+</script>
+</html>

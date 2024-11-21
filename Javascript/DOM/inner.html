@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="heading">
+        <h1>Sudhanshu Nijap</h1>
+    </div>
+    <div class="info" style="text-decoration: dashed">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae voluptatum explicabo vel. Placeat
+            suscipit et odio nobis? Magnam commodi nostrum corrupti sapiente doloribus iste, numquam esse! Facere
+            eligendi magni, id explicabo ducimus dignissimos in qui aspernatur veniam itaque voluptatibus fugit odit ex
+            quisquam veritatis dolorum?</p>
+    </div>           
+</body>
+<script>
+document.querySelector(".heading").innerText
+document.querySelector(".heading").innerHTML // html inside the element as a string
+document.querySelector(".heading").outerHTML // same but innerHTML + itself
+document.querySelector(".heading").tagName // only html elements
+document.querySelector(".heading").nodeName // all nodes
+// document.querySelector(".info").hidden = true // hides the element
+// document.querySelector(".info").innerHTML = "yo yo" // changes html insid the element
+// Attribute Methods
+document.querySelector(".info").hasAttribute("style") // checks whether it has style attribute
+document.querySelector(".info").getAttribute("style") // gets the value of style attribute
+document.querySelector(".info").setAttribute("style","color:red") // sets the value of style attribute  
+document.querySelector(".info").removeAttribute("style") // remove the attribute
+// Insertion Methods
+let div = document.createElement("div");  // creates a div element
+div.innerHTML = "<b>innnnnssserrrtedd</b>";  // sets inner html
+div.setAttribute("class","created");  // sets class attribute
+// document.querySelector(".heading").append(div); // adds the element at the end of the element
+// document.querySelector(".heading").before(div) // adds the element before the element
+// document.querySelector(".heading").after(div) // adds the element after the element
+// document.querySelector(".info").insertAdjacentHTML("beforebegin","<b>before begin</b>")
+document.querySelector(".info").insertAdjacentHTML("afterbegin","<b>after begin</b>")
+document.querySelector(".info").remove(); // removes
+</script>
+</html>
