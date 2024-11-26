@@ -7,7 +7,7 @@ function num(){
 }
 num(1,2,3,4,5);
 
-//spread operatorrr
+//spread operator
 function number(...num){
     let s = 0;
     for(let i=0;i<num.length;i++){
