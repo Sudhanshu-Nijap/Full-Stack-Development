@@ -7,6 +7,7 @@ function num(){
 }
 num(1,2,3,4,5);
 
+//spread operatorrr
 function number(...num){
     let s = 0;
     for(let i=0;i<num.length;i++){
@@ -16,6 +17,8 @@ function number(...num){
 }
 number(1,2,3,4,5,6,7)
 
+
+//arrow function
 const a = () => {
     console.log("hello");
 }
@@ -26,6 +29,7 @@ const add = (a,b) =>{
 }
 add(1,2)
 
+//spread with arrow
 let iter = (...num) =>{
     let a = 0
     for(let j = 0;j<num.length;j++){
